@@ -11,6 +11,8 @@ public class PlayerControl : MonoBehaviour
     [Range(0.0f, 10.0f)] // create a slider in the editor and set limits on moveSpeed
     public float moveSpeed = 3f;
 
+    public float pushMag = 100f;
+
     public float jumpForce = 600f;
     public AudioClip jumpSFX;
     public AudioClip hitSFX;
@@ -85,6 +87,24 @@ public class PlayerControl : MonoBehaviour
 
         // Change the actual velocity on the rigidbody
         _rigidbody.velocity = new Vector3(0, _vy, _vz * moveSpeed);
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Ball")
+        {
+            Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
+            Vector3 temp = collision.gameObject.GetComponent<Transform>().position - _transform.position;
+            temp = temp.normalized;
+            //rb.AddForce(new Vector3(0, temp.y*pushMag, temp.z*pushMag));
+            if(temp.z >= 0)
+                rb.AddForce(new Vector3(0, pushMag, pushMag));
+            else
+                rb.AddForce(new Vector3(0, pushMag, -pushMag));
+
+
+        }
     }
 
     void DoJump()
