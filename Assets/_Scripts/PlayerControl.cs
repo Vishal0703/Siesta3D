@@ -97,11 +97,12 @@ public class PlayerControl : MonoBehaviour
             Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
             Vector3 temp = collision.gameObject.GetComponent<Transform>().position - _transform.position;
             temp = temp.normalized;
-            //rb.AddForce(new Vector3(0, temp.y*pushMag, temp.z*pushMag));
-            if(temp.z >= 0)
-                rb.AddForce(new Vector3(0, pushMag, pushMag));
-            else
-                rb.AddForce(new Vector3(0, pushMag, -pushMag));
+            //Debug.Log($"Direction of force {temp.y} , {temp.z}");
+            rb.AddForce(new Vector3(0, temp.y * pushMag, temp.z * pushMag));
+            //if(temp.z >= 0)
+            //    rb.AddForce(new Vector3(0, pushMag, pushMag));
+            //else
+            //    rb.AddForce(new Vector3(0, pushMag, -pushMag));
 
 
         }
