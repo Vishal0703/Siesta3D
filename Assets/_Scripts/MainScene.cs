@@ -20,6 +20,16 @@ public class MainScene : MonoBehaviour
     {
         SceneManager.LoadScene("LevelBegin");
     }
+
+    public void playGame()
+    {
+        SceneManager.LoadScene("LevelBegin");
+    }
+
+    public void quitGame()
+    {
+        Application.Quit();
+    }
     //public void loadCook()
     //{
     //    SceneManager.LoadScene("LevelCook");
