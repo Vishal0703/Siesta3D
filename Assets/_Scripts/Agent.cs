@@ -15,19 +15,19 @@ public class Agent : MonoBehaviour
     bool isGrounded;
     float _vz, _vy;
     Rigidbody _rigidbody;
-    AudioSource _audio;
+    //AudioSource _audio;
     float _destinationPoint;
 
     // Start is called before the first frame update
     void Start()
     {
-        _audio = GetComponent<AudioSource>();
-        if (_audio == null)
-        { // if AudioSource is missing
-            Debug.LogWarning("AudioSource component missing from this gameobject. Adding one.");
-            // let's just add the AudioSource component dynamically
-            _audio = gameObject.AddComponent<AudioSource>();
-        }
+        //_audio = GetComponent<AudioSource>();
+        //if (_audio == null)
+        //{ // if AudioSource is missing
+        //    Debug.LogWarning("AudioSource component missing from this gameobject. Adding one.");
+        //    // let's just add the AudioSource component dynamically
+        //    _audio = gameObject.AddComponent<AudioSource>();
+        //}
 
         _rigidbody = GetComponent<Rigidbody>();
 
@@ -67,11 +67,11 @@ public class Agent : MonoBehaviour
         // add a force in the up direction
         _rigidbody.AddForce(new Vector3(0, jumpForce, 0));
         // play the jump sound
-        PlaySound(jumpSFX);
+        //PlaySound(jumpSFX);
     }
 
     void PlaySound(AudioClip clip)
     {
-        _audio.PlayOneShot(clip);
+        //_audio.PlayOneShot(clip);
     }
 }
