@@ -46,6 +46,10 @@ public class FoodReady : MonoBehaviour
         dumplingflag = true;
     }
 
+    public void setStartTime()
+    {
+        startTime = Time.time;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -77,6 +81,8 @@ public class FoodReady : MonoBehaviour
                 this.gameObject.SetActive(false);
 
             }
+
+           // startTime = Time.time;
             //foreach (GameObject food in foods)
             //{
             //    Debug.Log(food.name.ToString());
