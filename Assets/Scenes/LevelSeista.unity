@@ -1461,7 +1461,7 @@ PrefabInstance:
     - target: {fileID: 8089724287011461315, guid: f2d20e4aa10954346b0fcb695c4fa550,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8089724287011461327, guid: f2d20e4aa10954346b0fcb695c4fa550,
         type: 3}
@@ -2278,8 +2278,14 @@ PrefabInstance:
     - target: {fileID: 3983008546936150439, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_text
-      value: Song 2
+      value: sunny balad
       objectReference: {fileID: 0}
+    - target: {fileID: 3983008546936150439, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
+        type: 3}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: ef7d2b193c3493940ab55b4afe852d39,
+        type: 2}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2338,22 +2344,22 @@ PrefabInstance:
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -316
+      value: -403
       objectReference: {fileID: 0}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -507.37
+      value: -520
       objectReference: {fileID: 0}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 270.53485
+      value: 296.21002
       objectReference: {fileID: 0}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 65.267334
+      value: 94.15149
       objectReference: {fileID: 0}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
@@ -3026,8 +3032,14 @@ PrefabInstance:
     - target: {fileID: 3983008546936150439, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_text
-      value: Song 1
+      value: welcome to the beach
       objectReference: {fileID: 0}
+    - target: {fileID: 3983008546936150439, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
+        type: 3}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: ef7d2b193c3493940ab55b4afe852d39,
+        type: 2}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3086,22 +3098,22 @@ PrefabInstance:
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -260
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -404
+      value: -379.4
       objectReference: {fileID: 0}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 270.53485
+      value: 361.2099
       objectReference: {fileID: 0}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 65.267334
+      value: 84.52338
       objectReference: {fileID: 0}
     - target: {fileID: 3983008547860565388, guid: 35bf1a6fd8472dd4e86ad686a057a5c8,
         type: 3}
@@ -3184,8 +3196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 582, y: 235.03}
-  m_SizeDelta: {x: -1080.2635, y: -609.9328}
+  m_AnchoredPosition: {x: 648, y: 256}
+  m_SizeDelta: {x: -1404.4077, y: -857.05255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748259465
 MonoBehaviour:
@@ -3234,8 +3246,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
