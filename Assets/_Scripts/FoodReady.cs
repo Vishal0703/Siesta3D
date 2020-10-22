@@ -16,6 +16,8 @@ public class FoodReady : MonoBehaviour
     public static bool dumplingflag = false;
     //GameObject[] foods;
     public GameObject hotdog;
+    public GameObject hamburg;
+    public GameObject dumpling;
     float startTime;
     void Start()
     {
@@ -34,6 +36,16 @@ public class FoodReady : MonoBehaviour
         hotdogflag = true;
     }
 
+    public void changehambool()
+    {
+        hamburgerflag = true;
+    }
+
+    public void changedumplingbool()
+    {
+        dumplingflag = true;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -48,6 +60,22 @@ public class FoodReady : MonoBehaviour
                 hotdogflag = false;
                 this.gameObject.SetActive(false);
                 
+            }
+            if (hamburg != null && hamburgerflag)
+            {
+                Debug.Log("HD");
+                hamburg.SetActive(true);
+                hamburgerflag = false;
+                this.gameObject.SetActive(false);
+
+            }
+            if (dumpling != null && dumplingflag)
+            {
+                Debug.Log("HD");
+                dumpling.SetActive(true);
+                dumplingflag = false;
+                this.gameObject.SetActive(false);
+
             }
             //foreach (GameObject food in foods)
             //{
