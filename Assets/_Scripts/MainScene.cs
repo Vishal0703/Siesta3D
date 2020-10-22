@@ -30,8 +30,8 @@ public class MainScene : MonoBehaviour
     {
         Application.Quit();
     }
-    //public void loadCook()
-    //{
-    //    SceneManager.LoadScene("LevelCook");
-    //}
+    public void loadCook()
+    {
+        SceneManager.LoadScene("LevelCook");
+    }
 }
