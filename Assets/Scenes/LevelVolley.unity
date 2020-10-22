@@ -708,7 +708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &487023475
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1514,7 +1514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1170141450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2731,10 +2731,24 @@ PrefabInstance:
     - target: {fileID: 7095026080833875184, guid: 6d6bb56090b23c840914ef84a26d98e4,
         type: 3}
       propertyPath: m_text
-      value: 'Score
-
-        -'
+      value: 'don''t count... just enjoy '
       objectReference: {fileID: 0}
+    - target: {fileID: 7095026080833875184, guid: 6d6bb56090b23c840914ef84a26d98e4,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7095026080833875184, guid: 6d6bb56090b23c840914ef84a26d98e4,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7095026080833875184, guid: 6d6bb56090b23c840914ef84a26d98e4,
+        type: 3}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: 598394c5c2cf8a3448d988abc9e10a2e,
+        type: 2}
     - target: {fileID: 7095026080833875186, guid: 6d6bb56090b23c840914ef84a26d98e4,
         type: 3}
       propertyPath: m_Name
@@ -2798,22 +2812,22 @@ PrefabInstance:
     - target: {fileID: 7095026080833875187, guid: 6d6bb56090b23c840914ef84a26d98e4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 4.4
+      value: 11.2
       objectReference: {fileID: 0}
     - target: {fileID: 7095026080833875187, guid: 6d6bb56090b23c840914ef84a26d98e4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -26.100098
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7095026080833875187, guid: 6d6bb56090b23c840914ef84a26d98e4,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 190.0033
+      value: 546.2409
       objectReference: {fileID: 0}
     - target: {fileID: 7095026080833875187, guid: 6d6bb56090b23c840914ef84a26d98e4,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 64.55017
+      value: 131.94635
       objectReference: {fileID: 0}
     - target: {fileID: 7095026080833875187, guid: 6d6bb56090b23c840914ef84a26d98e4,
         type: 3}
