@@ -9,6 +9,7 @@ TagManager:
   - Ball
   - Food
   - Enemy
+  - Ground
   layers:
   - Default
   - TransparentFX
