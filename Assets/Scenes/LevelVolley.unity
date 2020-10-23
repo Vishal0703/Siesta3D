@@ -515,7 +515,7 @@ MonoBehaviour:
   jumpForce: 200
   ball: {fileID: 2016922675}
   groundCheck: {fileID: 1661180470}
-  ballOffset: 2
+  ballOffset: 2.56
   jumpSFX: {fileID: 0}
   pushMag: 100
   midobj: {fileID: 1086668232}
